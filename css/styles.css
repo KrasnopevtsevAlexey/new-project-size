@@ -3,6 +3,7 @@
 @import "../fonts/style.css";
 
 @import "./order.css";
+@import "./section-number.css";
 
 .font1{
     font-family: "Playfair Display", serif !important;

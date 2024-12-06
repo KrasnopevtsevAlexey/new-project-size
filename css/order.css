@@ -1,0 +1,31 @@
+.facts{
+    display: flex;
+    width: 794px;
+    max-width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    margin: auto;
+}
+.facts__item{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.facts__item-icon::before{
+    font-size: 80px;
+    color: rgba(212, 193, 127, 1)
+}
+
+.facts__item-title{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: "Roboto serif";
+    margin-bottom: 0;
+ padding-top: 53px;
+}
+/* h6{
+    padding-top: 53px;
+} */
