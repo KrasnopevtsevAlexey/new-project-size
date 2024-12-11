@@ -1,7 +1,8 @@
 @import "../libs/bootstrap5/bootstrap-grid.min.css";
 @import "../libs/bootstrap5/bootstrap-reboot.min.css";
 @import "../fonts/style.css";
-
+@import "../css/room.css";
+@import '../css/bootstrap-skin.css';
 @import "./order.css";
 @import "./section-number.css";
 
@@ -21,6 +22,9 @@
     color: rgba(212, 193, 127, 1) !important
 }
 
+img{
+    width: 100%;
+}
 body{
      font-family: "Raleway", sans-serif;
     color: #fff;

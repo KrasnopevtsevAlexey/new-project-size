@@ -1,20 +1,21 @@
-
-section{
-    position: relative;
+section {
+  position: relative;
 }
-.section-number{
-    top: 0;
-    right: 258px;
-   position: absolute;
-   font-family: serif;
-   font-weight: 700; 
-   font-family: "Playfair Display", serif;
-   font-size: 400px;
-   opacity: .02;
-   line-height: 533px;
-   color: rgb(255, 255, 255)
+.section-number {
+  top: 0;
+  right: 258px;
+  position: absolute;
+  font-family: serif;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-size: 400px;
+  opacity: 0.02;
+  line-height: 533px;
+  color: rgb(255, 255, 255);
+  z-index: -1;
 }
 
-#facts{
-    padding: 150px 0;
+#facts {
+  padding: 150px 0;
+  padding-bottom: 120px;
 }
