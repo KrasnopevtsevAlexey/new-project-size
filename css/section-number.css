@@ -1,5 +1,9 @@
 section {
   position: relative;
+  padding: 180px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .section-number {
   top: 0;

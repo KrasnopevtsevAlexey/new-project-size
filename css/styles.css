@@ -5,6 +5,7 @@
 @import '../css/bootstrap-skin.css';
 @import "./order.css";
 @import "./section-number.css";
+@import './img-section.css';
 
 .font1{
     font-family: "Playfair Display", serif !important;
