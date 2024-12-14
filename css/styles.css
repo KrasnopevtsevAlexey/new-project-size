@@ -6,6 +6,7 @@
 @import "./order.css";
 @import "./section-number.css";
 @import './img-section.css';
+@import "./cta.css";
 
 .font1{
     font-family: "Playfair Display", serif !important;
@@ -165,4 +166,17 @@ color: rgb(212, 193, 127);
 .icon-mouse::before{
    color: rgb(212, 193, 127);
     font-size: 21px;
+}
+.posit{
+    position: relative;
+}
+p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    margin-bottom: 0;
+}
+h2{
+    margin-bottom: 50px;
 }
