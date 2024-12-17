@@ -7,7 +7,7 @@
 @import "./section-number.css";
 @import './img-section.css';
 @import "./cta.css";
-
+@import "./button.css";
 .font1{
     font-family: "Playfair Display", serif !important;
 }
@@ -180,3 +180,13 @@ p{
 h2{
     margin-bottom: 50px;
 }
+.fz13{
+    font-size: 13px !important; 
+}
+.d-block{
+    display: block !important;
+}
+/* .text-center{
+
+    text-align: center;
+} */

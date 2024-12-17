@@ -19,3 +19,28 @@ position: absolute;
 
 
 }
+.form{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.form__item{
+    width: calc(50% - 15px); 
+    margin-bottom: 35px;
+}
+.form-control{
+    width: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 13px;
+    transition: all .1s ease-out;
+    color:#fff;
+}
+.form-control:focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, .3);
+}
+.form-control::placeholder{
+    color: rgba(190, 190, 190, 1.00);
+}

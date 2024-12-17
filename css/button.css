@@ -1,0 +1,18 @@
+.btn{
+    display: inline-block;
+width: 100%;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1;
+    padding: 16px;
+    transition: all .09s ease-out;
+}
+
+.btn-accent{
+    background-color: rgba(212, 193, 127, 1.00);
+    
+}
+.btn-accent:hover{
+    background-color: rgb(181, 164, 105);
+    
+}
