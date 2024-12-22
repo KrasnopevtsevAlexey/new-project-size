@@ -18,7 +18,10 @@ section {
   color: rgb(255, 255, 255);
   z-index: -1;
 }
-
+.section-number_middle{
+  top: 50%;
+  transform: translateY(-50%);
+}
 #facts {
   padding: 150px 0;
   padding-bottom: 120px;
